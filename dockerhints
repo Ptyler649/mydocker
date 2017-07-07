@@ -1,3 +1,5 @@
+note: use sudo for many of these commands
+
 docker search ubuntu = search for a base image
 sudo apt-get install -y docker.io = installs docker
 sudo systemctl start docker = starts docker
@@ -24,5 +26,20 @@ docker rm NAMES = Removes the container
 
 sudo docker run -d ubuntu:15.04 /bin/bash -c "while true; do echo hello world; sleep; done" = runs the hello world command in the background this can be confirmed using sudo docker ps and to view the output of the logs you can run the command sudo docker logs <name of the docker instance> and then to stop the daemon  run the following command sudo docker stop <name of the docker instance>.
 
+docker version = displays the latest version of docker version
 
+docker info = displays further info, number of containers etc
 
+sudo docker ps -a = displays all the docker instances that have also been run in the past rather that docker ps that just shown the currently running docker instances
+
+sudo docker images = shows the current docker images
+
+sudo docker pull ubuntu:xenial = pulls a new distro image
+
+sudo docker run -i -t ubuntu:xenial /bin/bash = will run the docker image and place me as a terminal inside of the image
+
+sudo docker restart <nameofthedockerimage> = will restart the docker image created and to find this out do a sudo docker ps -a
+
+sudo docker attach <nameofthedockerimage> = will attach on the prompt into the docker image itseld
+
+ 
