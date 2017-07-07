@@ -1,0 +1,28 @@
+docker search ubuntu = search for a base image
+sudo apt-get install -y docker.io = installs docker
+sudo systemctl start docker = starts docker
+sudo systemctl enable docker = enables docker to run at system boot
+sudo docker version = displays the version
+
+sudo docker pull ubuntu = downloads a base image to our server
+sudo docker images = shows all the images that have been downloaded
+
+sudo docker create ubuntu:15.04 = creates a container
+
+sudo docker run -i -t ubuntu:15.04 /bin/bash = runs the container and starts a bash script
+
+Add a -d to the above to run as a background job
+
+docker ps = shows background processes
+
+docker logs NAMES = shows containers logs
+
+docker stop NAMES = Stops container
+docker start NAMES = Starts container
+
+docker rm NAMES = Removes the container
+
+sudo docker run -d ubuntu:15.04 /bin/bash -c "while true; do echo hello world; sleep; done" = runs the hello world command in the background this can be confirmed using sudo docker ps and to view the output of the logs you can run the command sudo docker logs <name of the docker instance> and then to stop the daemon  run the following command sudo docker stop <name of the docker instance>.
+
+
+
