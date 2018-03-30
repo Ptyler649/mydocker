@@ -5,6 +5,6 @@ git commit -m "test integration"
 
 # add changes to communicator git repo
 go="touch /c/Users/ptyle/myelastic/heyho.txt"
-goed="/c/Users/ptyle/myelastic git add *
+goed="/c/Users/ptyle/myelastic git add *"
 eval $go
 eval $goed
