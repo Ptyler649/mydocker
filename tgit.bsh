@@ -4,11 +4,10 @@ git commit -m "test integration"
 #git push origin  master
 
 # add changes to communicator git repo
-go="touch /c/Users/ptyle/myelastic/heyho.txt"
+go="touch heyho.txt"
 gocd="cd /c/Users/ptyle/myelastic"
-gotest="touch whereami.txt"
-#goadd="/c/Users/ptyle/myelastic git add *"
+goadd="git add *"
 #gocommit="/c/Users/ptyle/myelastic git commit -m \"test auto commit\""
-eval $go
 eval $gocd
-eval $gotest
+eval $go
+eval $goadd
