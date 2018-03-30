@@ -1,4 +1,6 @@
 git add *
 git commit -m "test integration"
 #git push origin  master
-touch ~\myelastic\heyho.txt
+go="touch /c/Users/ptyle/myelastic/heyho.txt"
+#touch ~\myelastic\heyho.txt
+
