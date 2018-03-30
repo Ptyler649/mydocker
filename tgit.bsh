@@ -7,7 +7,7 @@ git commit -m "test integration"
 #git push origin  master
 
 # add changes to communicator git repo
-go="touch heyho.txt"
+go="touch heyho1.txt"
 gocd="cd /c/Users/ptyle/myelastic"
 goadd="git add *"
 #gocommit="git commit -m \"test auto commit\""
