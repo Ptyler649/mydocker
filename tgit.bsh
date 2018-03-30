@@ -1,3 +1,6 @@
+#echo 1st parameter
+echo $1
+
 # add changes to originator git repo
 git add *
 git commit -m "test integration"
@@ -13,4 +16,4 @@ eval $gocd
 eval $go
 eval $goadd
 eval $gocommit
-eval $gopush
+#eval $gopush
