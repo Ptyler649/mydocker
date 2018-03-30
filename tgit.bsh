@@ -1,6 +1,9 @@
 #echo 1st parameter
 echo $1
 
+#create commit communicator unique ref
+commref=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+
 # add changes to originator git repo
 git add *
 git commit -m "test integration"
@@ -17,4 +20,4 @@ eval $gocd
 eval $go
 eval $goadd
 eval $gocommit
-eval $gopush
+#eval $gopush
