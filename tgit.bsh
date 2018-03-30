@@ -1,7 +1,10 @@
+# add changes to originator git repo
 git add *
 git commit -m "test integration"
 #git push origin  master
-go="touch /c/Users/ptyle/myelastic/heyho.txt"
-eval $go
-#touch ~\myelastic\heyho.txt
 
+# add changes to communicator git repo
+go="touch /c/Users/ptyle/myelastic/heyho.txt"
+goed="/c/Users/ptyle/myelastic git add *
+eval $go
+eval $goed
