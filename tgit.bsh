@@ -17,4 +17,4 @@ eval $gocd
 eval $go
 eval $goadd
 eval $gocommit
-#eval $gopush
+eval $gopush
