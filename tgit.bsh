@@ -7,7 +7,8 @@ git commit -m "test integration"
 go="touch heyho.txt"
 gocd="cd /c/Users/ptyle/myelastic"
 goadd="git add *"
-#gocommit="/c/Users/ptyle/myelastic git commit -m \"test auto commit\""
+gocommit="git commit -m \"test auto commit\""
 eval $gocd
 eval $go
 eval $goadd
+eval $gocommit
