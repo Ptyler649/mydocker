@@ -24,4 +24,4 @@ eval $go
 eval $goentry
 eval $goadd
 eval $gocommit
-#eval $gopush
+eval $gopush
