@@ -6,7 +6,7 @@ git commit -m "test integration"
 # add changes to communicator git repo
 go="touch /c/Users/ptyle/myelastic/heyho.txt"
 goadd="/c/Users/ptyle/myelastic git add *"
-gotcommit="/c/Users/ptyle/myelastic git commit -m \"test auto commit\""
+gocommit="/c/Users/ptyle/myelastic git commit -m \"test auto commit\""
 eval $go
 eval $goadd
 eval $gocommit
